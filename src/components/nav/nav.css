@@ -1,0 +1,36 @@
+.navigation {
+  width: 100%;
+}
+.navigation .container .nav-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navigation .container .nav-icons .logo {
+  font-size: 60px;
+  margin-left: 15px;
+}
+.navigation .container .nav-icons .logo:hover {
+  color: var(--icon-hover-color);
+}
+.navigation .container .nav-icons .other-icons {
+  display: flex;
+  flex-direction: row;
+  max-height: 10px;
+  padding-top: 10px;
+}
+.navigation .container .nav-icons .other-icons .icons button, .navigation .container .nav-icons .other-icons .menu button {
+  border: 0;
+  background-color: white;
+  margin: 0;
+  padding: 7px;
+}
+.navigation .container .nav-icons .other-icons .icons button a, .navigation .container .nav-icons .other-icons .menu button a {
+  text-decoration: none;
+  color: var(--font-color);
+  font-size: var(--icon-size-1);
+}
+.navigation .container .nav-icons .other-icons .icons button:hover, .navigation .container .nav-icons .other-icons .menu button:hover {
+  border-radius: 50%;
+  background-color: var(--icon-hover-color);
+}/*# sourceMappingURL=nav.css.map */
