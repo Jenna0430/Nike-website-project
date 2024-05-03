@@ -1,9 +1,28 @@
 *{
 box-sizing: border-box;
+margin: 0;
+font-family:  Helvetica, sans-serif;
+
 }
 
 :root{
   --font-color: black;
-  --icon-size-1: 20px;
-  --icon-hover-color: rgba(128, 128, 128, 0.3);
+  --icon-size-1: 25px;
+  --icon-hover-color: rgba(128, 128, 128, 0.2);
+  --hover-color: rgba(128, 128, 128, 0.5);
+  --nav-background-color: #f0f0f0;
+  
+}
+.flex{
+  display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+.text{
+  font-size: 18px;
+  font-weight: bold;
+}
+.text2{
+  font-size: 12px;
+  font-weight: bold;
 }
